@@ -69,7 +69,7 @@ function App() {
         <nav className='nav-bar'>
           <ul id='navbar'>
             <li id="test1" >Develop</li>
-            <li id="test2">Contacts</li>
+            <li id="test2">Contact</li>
             <li id="test3">About</li>
           </ul>
         </nav>
