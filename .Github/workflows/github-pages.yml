@@ -1,0 +1,24 @@
+name: Build and Deploy notec app to Github pages
+on:
+  push:
+    branches: [main]
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+    -uses: actions/checkout@v3
+      uses: actions/setup-node@v3
+    
+    -name: Build
+      run: npm install 
+    
+    -name: Test
+      run: npm run test
+    
+    -name: Deploy
+      run: |
+        git config --global user.name "SoltanHuseynov"
+        git config --global user.email "sayepzero@gmail.com"
+        git remote set-url origin https://x-acces-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        npm run deploy
