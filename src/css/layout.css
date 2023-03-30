@@ -1,0 +1,108 @@
+.layout1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:1rem ;
+    height: 50rem;
+
+}
+.word{
+    word-break:initial;
+    width: 100vh;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+.div-person-log img{
+    /* display: block; */
+    height: 10rem;
+    width: 10rem;
+    margin: 2rem;
+    border-radius: 10rem;
+}
+
+.layout1 a{
+    margin-top: 35%;
+}
+
+@media screen and (max-width:750px) {
+    .layout1{
+        display:block;
+    }
+    .div-person-log {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .word{
+        word-break:keep-all;
+        text-align: center;
+        margin: 5%;
+        width: 95%;
+        font-size: 19px;
+    }
+    
+}
+.layout2{
+    background-color:#eeeeee;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 2rem;
+    height: 50rem;
+    
+}
+
+.div-about-log img{
+    /* height: 15rem; */
+    width: 40%;
+    margin-left: 10rem;
+}
+
+.layout3{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+.layout3 a{
+    text-decoration: none;
+    display: flex;
+    font-size: 2rem;
+    color: black;
+    margin: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.layout3 a:last-child{
+    color: #19A7CE;
+}
+
+@media screen and (max-width:750px) {
+    .layout2{
+        display: block;
+    }
+    .layout3{
+        display: block;
+    }
+    .div-about-log img{
+        width: 10rem;
+        height: 10rem;
+        margin-top: 9rem;
+        margin-left: 1rem;
+    }
+    .div-about-log {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .layout2 .word{
+        word-break: keep-all;
+        position: relative;
+        top: 100px;
+    }
+    
+    
+}

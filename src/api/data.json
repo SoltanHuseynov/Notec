@@ -1,0 +1,15 @@
+{
+    "Person":{
+        "name":"Soltan Huseynov",
+        "image":"./img/person.jpg"
+    },
+    "About":{
+        "logo":"./img/svg/log.svg",
+        "about":""
+    },
+    "Connect":{
+        "twitter":"",
+        "github":"",
+        "gmail":""
+    }
+}
