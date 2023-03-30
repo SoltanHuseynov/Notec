@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/notec/static/css/main.2e863833.css",
+    "main.js": "/notec/static/js/main.f44dedcc.js",
+    "static/js/865.a547c4d6.chunk.js": "/notec/static/js/865.a547c4d6.chunk.js",
+    "static/js/726.f6e4d3ea.chunk.js": "/notec/static/js/726.f6e4d3ea.chunk.js",
+    "static/js/266.02463d58.chunk.js": "/notec/static/js/266.02463d58.chunk.js",
+    "static/media/image.jpg": "/notec/static/media/image.d55ba1b95d62564f6596.jpg",
+    "index.html": "/notec/index.html",
+    "static/media/develop.md": "/notec/static/media/develop.e4ef6792bfabdf699985.md",
+    "static/media/about.md": "/notec/static/media/about.41a977c9d8d1bd7688b2.md",
+    "static/media/entry.md": "/notec/static/media/entry.a8f56c17c78c9c48fb1a.md",
+    "main.2e863833.css.map": "/notec/static/css/main.2e863833.css.map",
+    "main.f44dedcc.js.map": "/notec/static/js/main.f44dedcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e863833.css",
+    "static/js/main.f44dedcc.js"
+  ]
+}
