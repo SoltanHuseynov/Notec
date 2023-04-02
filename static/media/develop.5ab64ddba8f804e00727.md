@@ -9,4 +9,4 @@ I have a few small project and this is one of the smaller projects. **Notec**
 
 >03.22.2023
 
->[And More>>>](soltanhuseynov.pro)
+>[And More>>>](https://soltanhuseynov.pro)
